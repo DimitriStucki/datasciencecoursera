@@ -1,0 +1,10 @@
+
+
+
+# It may not be RStudio, but it does the trick as well.
+# Please don't fail me... :-)
+
+A <- rnorm(100, 5, 0.8)
+B <- rnorm(100, 8, 0.5)
+
+t.test(A,B)
